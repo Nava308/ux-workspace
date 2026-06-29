@@ -22,7 +22,7 @@
 - Primary: `#007367` (GITAM Green), `#F4E4C9` (Antique White)
 - Secondary: `#004740` (Dark Green), `#8BCBB7` (Light Green), `#A58255` (Antique Gold), `#CCBA8D` (Beige)
 - Tertiary: `#DD736E` (Kind Coral), `#E0B541` (Mellow Yellow), `#5E95CD` (Wide Blue)
-- Tertiary colours must NEVER exceed a 1:5 ratio against the primary palette
+- Tertiary colours must NEVER exceed a 1:5 ratio against primary — never use tertiary in isolation, always pair with GITAM Green and Antique White
 - All colours must be declared as CSS variables — never hardcode hex values inline
 - Never use colours outside these palettes
 

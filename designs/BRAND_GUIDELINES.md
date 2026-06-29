@@ -20,11 +20,52 @@ Version 1.0 (Abridged) | 2 August 2024
 | Beige        | #CCBA8D | 204, 186, 141 | 25 25 50 0   | 7502 C   |
 
 ### Tertiary (max 1:5 ratio against primary)
-| Name         | HEX     | RGB           | CMYK        | Pantone  |
-|--------------|---------|---------------|-------------|----------|
-| Kind Coral   | #DD736E | 221, 115, 110 | 0 70 50 0   | 2345 C   |
-| Mellow Yellow| #E0B541 | 224, 181, 65  | 10 30 95 0  | 7408 C   |
-| Wide Blue    | #5E95CD | 94, 149, 205  | 70 30 0 0   | 2171 C   |
+| Name          | HEX     | RGB           | CMYK        | Pantone  |
+|---------------|---------|---------------|-------------|----------|
+| Kind Coral    | #DD736E | 221, 115, 110 | 0 70 50 0   | 2345 C   |
+| Mellow Yellow | #E0B541 | 224, 181, 65  | 10 30 95 0  | 7408 C   |
+| Wide Blue     | #5E95CD | 94, 149, 205  | 70 30 0 0   | 2171 C   |
+
+**Tertiary usage rule:** Tertiary colours must never overpower the primary palette. Primary:Tertiary ratio must not exceed 5:1. Each tertiary colour is always paired with GITAM Green and Antique White — never used in isolation.
+
+---
+
+### Colour Context Mapping (Formal–Casual / Bold–Subtle Axes)
+
+Use this when deciding which colour fits the context:
+
+```
+         FORMAL
+            |
+Dark Green  |  Antique Gold
+            |
+  BOLD -----+------ SUBTLE
+            |
+  GITAM     | Antique White
+  Green     | Beige
+  Wide Blue | Light Green
+            |
+  Mellow    |
+  Yellow    | Kind Coral
+         CASUAL
+```
+
+- **Formal + Bold**: Dark Green — authority, official comms
+- **Formal + Subtle**: Antique Gold, Beige, Antique White — elegant, refined
+- **Casual + Bold**: GITAM Green, Wide Blue, Mellow Yellow — energetic, modern
+- **Casual + Subtle**: Light Green, Kind Coral — friendly, approachable
+
+---
+
+### Colour Categorization by Tone
+
+| Category | Colours |
+|----------|---------|
+| **Neutral** | Antique White, Light Green, Antique Gold, Beige |
+| **Bright** | Wide Blue, Mellow Yellow, Kind Coral |
+| **Dark** | Dark Green, GITAM Green |
+
+Use neutrals as backgrounds and base layers. Use brights as accents. Use darks for headers, CTAs, and strong emphasis.
 
 ---
 
@@ -37,6 +78,15 @@ Version 1.0 (Abridged) | 2 August 2024
 ### Secondary Font — Inter
 - Weights: Regular, Medium, Bold
 - Use for: Google Slides, Google Docs, Google Sheets, PowerPoint, Word, Excel
+
+### Visiting Card Type Specs (Forma DJR Display)
+| Element              | Weight  | Size |
+|----------------------|---------|------|
+| Full Name            | Bold    | 9pt  |
+| Designation          | Bold    | 7pt  |
+| School Name          | Bold    | 7pt  |
+| Contact (phone/email)| Regular | 6pt  |
+| Address              | Regular | 6pt  |
 
 ---
 
