@@ -1,56 +1,76 @@
-# UX Workspace
+# UX Workspace — GITAM
 
 ## Stack
 - React + Tailwind CSS
-- Component output goes in /components
+- Component output goes in `/components`
 
 ## Figma
 - Always use Figma MCP for design context, never screenshots
 
 ## Conventions
 - Component names must match Figma frame names exactly
-- Use CSS variables for all colors and spacing tokens
+- Use CSS variables for all colours and spacing tokens
 
 ---
 
-## GITAM Brand Guidelines — ENFORCED RULES
+## MANDATORY: Brand Guidelines Protocol
 
-> Full reference: `designs/BRAND_GUIDELINES.md`
-> These rules are mandatory. Never deviate without explicit instruction.
+> **Before writing any design, component, UI copy, or making any visual decision — you MUST read `designs/BRAND_GUIDELINES.md` in full.**
+> No exceptions. Do not rely on memory of past sessions.
+
+This is not optional. If you are about to output any of the following, stop and read the brand guidelines first:
+- A React component with any visual styling
+- Colour values of any kind
+- Font choices or text styling
+- Logo usage or placement
+- Image or icon decisions
+- Any UI copy or written content
+
+---
+
+## GITAM Brand Rules — Enforced
 
 ### Colours
-- Primary: `#007367` (GITAM Green), `#F4E4C9` (Antique White)
-- Secondary: `#004740` (Dark Green), `#8BCBB7` (Light Green), `#A58255` (Antique Gold), `#CCBA8D` (Beige)
-- Tertiary: `#DD736E` (Kind Coral), `#E0B541` (Mellow Yellow), `#5E95CD` (Wide Blue)
-- Tertiary colours must NEVER exceed a 1:5 ratio against primary — never use tertiary in isolation, always pair with GITAM Green and Antique White
-- All colours must be declared as CSS variables — never hardcode hex values inline
-- Never use colours outside these palettes
+- **Only** use colours from the approved palette. Zero exceptions.
+- Primary: `--color-gitam-green: #007367` · `--color-antique-white: #F4E4C9`
+- Secondary: `--color-dark-green: #004740` · `--color-light-green: #8BCBB7` · `--color-antique-gold: #A58255` · `--color-beige: #CCBA8D`
+- Tertiary: `--color-kind-coral: #DD736E` · `--color-mellow-yellow: #E0B541` · `--color-wide-blue: #5E95CD`
+- Tertiary colours must NEVER exceed a 1:5 ratio vs primary — always pair with GITAM Green + Antique White, never standalone
+- All colours MUST be declared as CSS variables — hardcoding hex values inline is forbidden
+- When choosing a colour, consult the formal/casual and bold/subtle context map in `designs/BRAND_GUIDELINES.md`
 
 ### Typography
-- Primary font: **Forma DJR Display** (Regular / Medium / Bold) — use for all UI and display text
-- Secondary font: **Inter** (Regular / Medium / Bold) — use for documents, slides, and templates
-- Never use any other fonts
+- Primary font: **Forma DJR Display** (Regular / Medium / Bold) — all UI, headings, display text
+- Secondary font: **Inter** (Regular / Medium / Bold) — documents, slides, templates only
+- **Never use any other font under any circumstance**
 
 ### Logo
-- Always use the linear (horizontal) logo as the default
-- Never rotate, distort, recolour, or add effects to the logo
-- Never place the logo on top of images or unapproved backgrounds
-- Always maintain 2x clear space around the logo on all sides
-- Never create custom logo lockups — use only the three approved lockups
+- Default format: linear (horizontal) — always
+- Stacked format: only when space is explicitly constrained
+- Never rotate, distort, recolour, or apply effects to the logo
+- Never place the logo over images or unapproved backgrounds
+- Maintain minimum 2x clear space on all sides at all times
+- Use only the 3 approved lockups: University / Cities / Basic Identity
+- Never invent custom logo variations
 
 ### Imagery
-- Images must feel positive, confident, and cheerful
-- Images must align with the brand colour palette
-- Never use cluttered, dark, or intimidating imagery
+- Must be positive, confident, cheerful, and well-lit
+- Must align with the brand colour palette
+- Never use cluttered, dark, or intimidating visuals
 
 ### Icons
 - Always use circular enclosures
 - Keep icons minimal and self-explanatory
-- Use reverse (Antique White icon on GITAM Green background) when needed
+- Reverse variant: Antique White icon on GITAM Green background
 
 ### Tone of Voice
-- Write in an active voice with short, crisp sentences
-- Be optimistic, warm, and direct — never boastful or institutional
-- Use contractions naturally (it's, we're, you'll)
-- Always back claims with numbers or factual data
-- Avoid stuffy, long-winded, or jargon-heavy language
+- Active voice, short crisp sentences, contractions welcome (it's, we're)
+- Optimistic and warm — never boastful, institutional, or vague
+- Always back claims with specific numbers and facts
+- Never use generic language — see the wrong-vs-right examples in `designs/BRAND_GUIDELINES.md`
+
+---
+
+## Violation Policy
+
+If any of these rules are about to be broken, **stop and flag it explicitly** before proceeding. Do not silently substitute values or make your own judgement calls on brand decisions. Ask first.
