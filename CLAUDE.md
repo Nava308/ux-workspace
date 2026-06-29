@@ -15,7 +15,9 @@
 
 ## MANDATORY: Brand Guidelines Protocol
 
-> **Before writing any design, component, UI copy, or making any visual decision — you MUST read `designs/BRAND_GUIDELINES.md` in full.**
+> **Before writing any design, component, UI copy, or making any visual decision — you MUST read the brand guidelines in full:**
+> **Local file:** `designs/BRAND_GUIDELINES.md`
+> **GitHub:** https://github.com/Nava308/ux-workspace/blob/main/designs/BRAND_GUIDELINES.md
 > No exceptions. Do not rely on memory of past sessions.
 
 This is not optional. If you are about to output any of the following, stop and read the brand guidelines first:
@@ -37,7 +39,7 @@ This is not optional. If you are about to output any of the following, stop and 
 - Tertiary: `--color-kind-coral: #DD736E` · `--color-mellow-yellow: #E0B541` · `--color-wide-blue: #5E95CD`
 - Tertiary colours must NEVER exceed a 1:5 ratio vs primary — always pair with GITAM Green + Antique White, never standalone
 - All colours MUST be declared as CSS variables — hardcoding hex values inline is forbidden
-- When choosing a colour, consult the formal/casual and bold/subtle context map in `designs/BRAND_GUIDELINES.md`
+- When choosing a colour, consult the formal/casual and bold/subtle context map in https://github.com/Nava308/ux-workspace/blob/main/designs/BRAND_GUIDELINES.md
 
 ### Typography
 - Primary font: **Forma DJR Display** (Regular / Medium / Bold) — all UI, headings, display text
@@ -67,7 +69,7 @@ This is not optional. If you are about to output any of the following, stop and 
 - Active voice, short crisp sentences, contractions welcome (it's, we're)
 - Optimistic and warm — never boastful, institutional, or vague
 - Always back claims with specific numbers and facts
-- Never use generic language — see the wrong-vs-right examples in `designs/BRAND_GUIDELINES.md`
+- Never use generic language — see the wrong-vs-right examples in https://github.com/Nava308/ux-workspace/blob/main/designs/BRAND_GUIDELINES.md
 
 ---
 
