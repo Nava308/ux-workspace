@@ -163,4 +163,17 @@ Use neutrals as backgrounds and base layers. Use brights as accents. Use darks f
 - Stuffy or old-fashioned language
 - Boastful or institutional tone
 - Overly formal or boring content
+- Overly complex words and phrases
+- Non-factual and generic language
+- Words that contradict GITAM brand values
 - Long-winded phrases (e.g. say "we can help you choose" not "the staff will be able to assist you in choosing")
+
+### Writing Examples — Wrong vs Right
+
+| Wrong (vague/generic) | Right (specific/factual) |
+|---|---|
+| "We have reputed faculty from top institutions" | "60%+ PhD faculty from top 100 universities, 15% from IITs/NITs" |
+| "We have world class amenities and research facilities" | "We have an NMR 500 MHz (BRUKER; Ascend) instrument with 24 autosampler tray worth ₹6 Crore" |
+| "To reserve your child's place, head over to our online booking form" | "You can book online, email, or call us on +00 000 000 0000 to reserve a place" |
+
+**Rule: Always replace generic claims with specific numbers and facts.**
